@@ -25,7 +25,14 @@ class MainCoordinator: Coordinator {
     
     // show b
     func showB() {
-       
+        let bVC = BVC.instantiate(name: .main)
+        navigationController.show(bVC, sender: nil)
+    }
+    
+    // show c
+    func showC() {
+        let cVC = CVC.instantiate(name: .main)
+        navigationController.show(cVC, sender: nil)
     }
 }
 

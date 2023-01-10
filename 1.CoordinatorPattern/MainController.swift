@@ -18,12 +18,12 @@ class MainController: UIViewController, StoryboardedProtocol {
     }
 
     @IBAction func goCVC(_ sender: UIButton) {
-        
+        coordinator?.showC()
     }
     
     
     @IBAction func goBVC(_ sender: UIButton) {
-        
+        coordinator?.showB()
     }
     
 }

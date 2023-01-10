@@ -7,12 +7,12 @@
 
 import UIKit
 
-class CVC: UIViewController {
+class CVC: UIViewController, StoryboardedProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemPink
+        
     }
     
 
